@@ -18,8 +18,8 @@ public class Client {
         Department marketing = new Department(finance);
 
 
-        System.out.println(HR.name);
-        System.out.println(finance.name);
-        System.out.println(marketing.companyName);
+        System.out.println(HR);
+        System.out.println(finance);
+        System.out.println(marketing);
     }
 }

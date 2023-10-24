@@ -28,4 +28,17 @@ public class Department {
         companyName = department.companyName;
         ceo = department.ceo;
     }
+
+    @Override
+    public String toString() {
+        return "Department{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", budget=" + budget +
+                ", numberOfEmployees=" + numberOfEmployees +
+                ", startingYear=" + startingYear +
+                ", companyName='" + companyName + '\'' +
+                ", ceo='" + ceo + '\'' +
+                '}';
+    }
 }
