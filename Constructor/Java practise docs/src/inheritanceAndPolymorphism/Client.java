@@ -51,5 +51,23 @@ public class Client {
 
         TA ta = new TA();
         ta.attenLecture();
+
+        C c = new C(1,2,3);
+        System.out.println(c.x + c.z + c.z);
+        System.out.println(c.y);
+        System.out.println(c.z-c.y-c.x);
+        c.helloC();
+        c.helloB();
+
+        System.out.println(Product.pricePerEach(100, 2000));
+
+
+        Product p = new Product(1, "iPhone", 100, 100000);
+
+        Citizen cit = new Citizen(3);
+        // cit.id = 6; Don't work as id is final
+        cit.name = "Tanveer";
+        System.out.println(cit);
+        System.out.println(Citizen.nationality);
     }
 }
