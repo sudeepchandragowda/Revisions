@@ -11,7 +11,6 @@ public class Count {
     public Count() {
         lock = new ReentrantLock();
     }
-
     public void increment() {
         lock.lock();
         value++;
